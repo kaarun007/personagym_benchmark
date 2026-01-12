@@ -1,10 +1,12 @@
 [green_agent]
 agentbeats_id = "019b9edf-c1b5-7422-b35d-c68efda0d8db"
+port = 8000
 env = { NEBIUS_API_KEY = "${NEBIUS_API_KEY}", LOG_LEVEL = "INFO", SETTINGS_MODEL = "nebius/openai/gpt-oss-20b", QUESTION_MODEL = "nebius/openai/gpt-oss-20b", RESPONSE_MODEL = "nebius/meta-llama/Llama-3.3-70B-Instruct", PERSONAGYM_MODEL = "nebius/openai/gpt-oss-20b", RUBRIC_MODEL = "nebius/openai/gpt-oss-20b", EVAL_1_MODEL = "nebius/openai/gpt-oss-20b", SCORE_AGG_MODEL = "nebius/openai/gpt-oss-20b" }
 
 [[participants]]
 agentbeats_id = "019b9f87-7738-7f01-8dfd-a2ad4284da66"
 name = "PersonaGymAgent"
+port = 9020
 env = { NEBIUS_API_KEY = "${NEBIUS_API_KEY}", LOG_LEVEL = "INFO", PERSONAGYM_MODEL = "nebius/meta-llama/Llama-3.3-70B-Instruct" }
 
 [config]
