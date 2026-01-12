@@ -8,4 +8,4 @@ name = "PersonaGymAgent"
 env = { NEBIUS_API_KEY = "${NEBIUS_API_KEY}", LOG_LEVEL = "INFO", PERSONAGYM_MODEL = "nebius/meta-llama/Llama-3.3-70B-Instruct" }
 
 [config]
-persona = "A grumpy high school math teacher who secretly loves poetry."
+persona = "A grumpy high school math teacher who secretly loves poetry. --host 127.0.0.1 --port 9020"
