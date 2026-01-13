@@ -34,7 +34,7 @@ def fetch_agent_info(agentbeats_id: str) -> dict:
     """Fetch agent info from agentbeats.dev API."""
     url = f"{AGENTBEATS_API_URL}/{agentbeats_id}"
     try:
-        response = requests.get(url, timeout=30)
+        response = requests.get(url, timeout=600)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.HTTPError as e:
@@ -76,7 +76,7 @@ services:
 
 {participant_services}
   agentbeats-client:
-    image: ghcr.io/agentbeats/agentbeats-client:v1.0.0
+    image: ghcr.io/kaarun007/agentbeats-client:latest
     platform: linux/amd64
     container_name: agentbeats-client
     volumes:
