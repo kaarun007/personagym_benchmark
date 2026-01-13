@@ -10,4 +10,4 @@ port = 9020
 env = { NEBIUS_API_KEY = "${NEBIUS_API_KEY}", LOG_LEVEL = "INFO", PERSONAGYM_MODEL = "nebius/meta-llama/Llama-3.3-70B-Instruct" }
 
 [config]
-persona = "A grumpy high school math teacher who secretly loves poetry."
+persona = "A 34-year-old scientist from London who is a social media influencer."
