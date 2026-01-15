@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/kaarun007/personagym-evaluator@sha256:898471e7aea4befc1b91bc7e15c9bf3d34123415dae98df54a5aac48621d5938",
+    "PersonaGymAgent": "ghcr.io/kaarun007/personagym-agent@sha256:9dcaac19be4890241e51cfa597c96916854a321a68748ff00db3a82c4b777eed",
+    "agentbeats-client": "ghcr.io/kaarun007/agentbeats-client@sha256:7c9a58c1315dbd6fc4d8353862e1e697ccd11ff265cdc7246a2c36838a9c2d25"
+  },
+  "timestamp": "2026-01-15T04:17:35Z",
+  "github_actions": {
+    "run_url": "https://github.com/kaarun007/personagym_benchmark/actions/runs/21019093900",
+    "run_logs_url": "https://api.github.com/repos/kaarun007/personagym_benchmark/actions/runs/21019093900/logs",
+    "ref": "refs/heads/submission/run-4",
+    "sha": "ccef3e62ab4dc5029928295f6aa94e4afbccfdf5",
+    "repository_url": "https://github.com/kaarun007/personagym_benchmark",
+    "workflow_ref": "kaarun007/personagym_benchmark/.github/workflows/run-scenario.yml@refs/heads/submission/run-4",
+    "workflow_sha": "ccef3e62ab4dc5029928295f6aa94e4afbccfdf5"
+  }
+}
