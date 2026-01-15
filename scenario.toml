@@ -11,3 +11,5 @@ env = { NEBIUS_API_KEY = "${NEBIUS_API_KEY}", LOG_LEVEL = "INFO", PERSONAGYM_MOD
 
 [config]
 persona = "A grumpy high school math teacher who secretly loves poetry."
+
+
